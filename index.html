@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+
+    <style>
+        body{
+            padding: 100px 100px;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        #container{
+            text-align: center;
+            background-color: aqua;
+            padding: 50px;
+        }
+
+        .inputDiv{
+            display: inline-block;
+        
+        }
+
+        .inp{
+            padding: 5px 10px;
+            margin: 10px;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            width: 250px;
+            
+        }
+
+        label{
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Temperature Converter</h1>
+
+    <div id="container">
+
+        <div class="inputDiv">
+            <label > Celsius </label> <br>
+            <input type="number" value="0" id="cel" class="inp">
+            <b>=</b>
+        </div>
+    
+
+        <div class="inputDiv">
+            <label> Fahrenheit </label> <br>
+            <input type="number" value="32" id="fah" class="inp">
+        </div>
+
+        <br>
+
+
+        <div class="inputDiv">
+            <label > Kelvin </label> <br>
+            <input type="number" value="0" id="kel" class="inp">
+            <b>=</b>
+        </div>
+    
+
+        <div class="inputDiv">
+            <label> Celsius </label> <br>
+            <input type="number" value="-273.15" id="celK" class="inp">
+        </div>
+
+        <br>
+
+
+        <div class="inputDiv">
+            <label > Kelvin </label> <br>
+            <input type="number" value="0" id="kelF" class="inp">
+            <b>=</b>
+        </div>
+    
+
+        <div class="inputDiv">
+            <label> Fahrenheit </label> <br>
+            <input type="number" value="-459.67" id="fahK" class="inp">
+        </div>
+
+
+    </div>
+
+    <script src="../project-1/project1js.js"></script>
+    
+</body>
+</html>
